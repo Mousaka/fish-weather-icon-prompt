@@ -12,7 +12,7 @@ function fish_prompt --description 'Write out the prompt'
     set -lx splitted (string split -r -m2 / $pwd_tilde_home)[-2 -1]
     set -lx myprompt (string join '/' $splitted)
     set -lx vsc (string replace -r '\((.*)\)' '$1' (__fish_vcs_prompt))
-    echo -n -s $__fish_weather_icon '  ' $myprompt
+    echo -n -s $__fish_weather_icon ' ' $myprompt
     set_color blue
     echo -n -s $vsc ' '
     set_color normal
