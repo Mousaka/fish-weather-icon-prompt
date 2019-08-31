@@ -25,4 +25,4 @@ Copy `fish_prompt.fish` and `fish_weather_icon.fish` into the fish-functions dir
 ~/.config/fish/functions/
 ```
 
-Also put `fish_title.fish` there if you want to see the weather icon in the shell title field.
+Also put `fish_title.fish` there if you want to see the weather icon in the terminal's title field.
