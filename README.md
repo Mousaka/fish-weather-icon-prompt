@@ -1,4 +1,4 @@
-# ☀️ Weather icon fish setup
+# ☀️ Weather icon in prompt for fish shell
 
 A minimal prompt with a weather icon. It fetches the current weather of Stockholm (easy to change the hard coded longditude and latitude) and shows it in the fish prompt on each new command.
 
