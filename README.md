@@ -28,7 +28,8 @@ https://fishshell.com/ https://curl.haxx.se/ https://stedolan.github.io/jq/
 Copy `fish_prompt.fish` and `fish_weather_icon.fish` into the fish-functions directory:
 
 ```
-~/.config/fish/functions/
+# Warning this will override your current fish_prompt!
+cp {fish_prompt.fish, fish_weather_icon.fish} ~/.config/fish/functions/
 ```
 
 Also put `fish_title.fish` there if you want to see the weather icon in the terminal's title field.
