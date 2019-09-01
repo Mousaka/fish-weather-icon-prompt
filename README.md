@@ -13,12 +13,18 @@ A minimal prompt with a weather icon. It fetches the current weather of Stockhol
 - curl
 - jq
 
-### Install with Homebrew
+### Install requirements
 
+#### Homebrew (osx)
 ```
 brew install fish curl jq
 ```
+#### Other OS
+See:
+https://fishshell.com/ https://curl.haxx.se/ https://stedolan.github.io/jq/
 
+
+### Copy files to fish functions
 Copy `fish_prompt.fish` and `fish_weather_icon.fish` into the fish-functions directory:
 
 ```
