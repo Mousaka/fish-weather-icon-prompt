@@ -31,5 +31,9 @@ Copy `fish_prompt.fish` and `fish_weather_icon.fish` into the fish-functions dir
 # Warning this will override your current fish_prompt!
 cp {fish_prompt.fish, fish_weather_icon.fish} ~/.config/fish/functions/
 ```
+* You can get more detailed information in:
+    * [How do I set my prompt](https://github.com/fish-shell/fish-shell/blob/master/doc_src/faq.rst#how-do-i-set-my-prompt)
+    * [Autoloading functions](https://github.com/fish-shell/fish-shell/blob/master/doc_src/index.rst#autoloading-functions)
+    * [Command reference](https://fishshell.com/docs/2.3/commands.html#set)
 
 Also put `fish_title.fish` there if you want to see the weather icon in the terminal's title field.
